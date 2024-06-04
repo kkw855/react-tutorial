@@ -51,4 +51,8 @@ export default tseslint.config(
     },
   },
   eslintConfigPrettier,
+  {
+    // ESLint 에서 제외할 리스트
+    ignores: ['vite.config.ts'],
+  },
 )
