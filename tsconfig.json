@@ -1,9 +1,8 @@
 {
   "compilerOptions": {
-    "baseUrl": "./src", // This is to avoid adding the ./src prefix to each path below.
+    "baseUrl": ".",
     "paths": {
-      "@/*": ["./*"],
-      "@pages/*": ["pages/*"]
+      "@/*": ["./src/*"]
     },
     "target": "ES2020",
     "useDefineForClassFields": true,

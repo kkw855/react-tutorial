@@ -1,7 +1,7 @@
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 
-import Home from '@pages/Home.tsx'
-import Products from '@pages/Products.tsx'
+import Home from '@/pages/Home.tsx'
+import Products from '@/pages/Products.tsx'
 
 const router = createBrowserRouter([
   { path: '/', element: <Home /> },
