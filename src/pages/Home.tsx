@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <main>
       <h1 className='text-3xl'>My Home Page</h1>
-      <Link to='/products' className={buttonVariants({ variant: 'link' })}>Go to products</Link>
+      <Link to='/products' className={buttonVariants({ variant: 'outline' })}>Go to products</Link>
     </main>
   )
 }
