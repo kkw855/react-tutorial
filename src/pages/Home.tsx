@@ -1,5 +1,14 @@
+import { Link } from 'react-router-dom'
+
+import { buttonVariants } from '@/components/ui/button.tsx'
+
 const Home = () => {
-  return <h1 className='text-3xl'>My Home Page</h1>
+  return (
+    <main>
+      <h1 className='text-3xl'>My Home Page</h1>
+      <Link to='/products' className={buttonVariants({ variant: 'link' })}>Go to products</Link>
+    </main>
+  )
 }
 
 export default Home
