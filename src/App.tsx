@@ -4,11 +4,13 @@ import Home from '@/pages/Home.tsx'
 import Products from '@/pages/Products.tsx'
 import ButtonPage from '@/pages/ButtonPage.tsx'
 import RootLayout from '@/pages/Root.tsx'
+import ErrorPage from '@/pages/Error.tsx'
 
 const router = createBrowserRouter([
   {
     path: '/',
     element: <RootLayout />,
+    errorElement: <ErrorPage />,
     children: [
       { path: '/', element: <Home /> },
       { path: '/products', element: <Products /> },
