@@ -1,7 +1,7 @@
+import { Link } from 'react-router-dom'
 import { ChevronRightIcon, EnvelopeOpenIcon, ReloadIcon } from '@radix-ui/react-icons'
 
 import { Button } from '@/components/ui/button.tsx'
-import { Link } from 'react-router-dom'
 
 const ButtonPage = () => {
   return (
